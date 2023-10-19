@@ -1,0 +1,161 @@
+body {
+    font-size: 2.5vh;
+    top: 15%;
+    left: 40%;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    margin: 0;
+}
+#calculator {
+    width:auto;
+    height: auto;
+    background-color: #000;
+    padding: 1.5vh;
+    border: 5px solid #000000;
+    border-radius: 15px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    box-shadow: 40px 50px 50px #3a3939;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+
+.box {
+    text-align:right;
+    font-size: 2.8vh;
+    height: 3vh;
+    line-height: 3vh;
+    padding: 1em;
+    border: 2px solid none;
+    color: white;
+    border-radius: 15px;
+    background-color: black;
+}
+
+#last_operation_history {
+    height: 1.8vh;
+    font-size: 1.8vh;
+    text-align:right;
+    padding-right: 1.5vh;
+    color: rgb(177, 176, 176);
+    background-color: black;
+}
+
+button {
+    width:9vh;
+    height: 9vh;
+    font-weight:bold;
+    font-size: 3vh;
+    color: white;
+    background-color: #2c2b2b;
+    border-radius: 50%;
+    border: 1px solid #333333;
+}
+
+#backspace_btn {
+    background-image: url("./images/back_remove.png");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+     background-color: #000;
+     border: solid 0px #000;
+    cursor: pointer;
+    background-size: 1.7em;
+}
+
+#web {
+    background-image: url("./images/pic_profile_unlog.png");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+     background-color: #000;
+     border: solid 0px #000;
+    cursor: pointer;
+    background-size: 2.7em;
+}
+
+#NULL {
+    /* background-image: url("./images/back_remove.png"); */
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+     background-color: #000;
+     border: solid 0px #000;
+    cursor: pointer;
+    background-size: 1.7em;
+}
+
+#help_btn {
+    background-image: url("./images/help2.png");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+     background-color: #000;
+     border: solid 0px #000;
+    cursor: pointer;
+    background-size: 1.7em;
+}
+
+#history_btn {
+    background-image: url("./images/ic_restore_white.png");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+     background-color: #000;
+     border: solid 0px #000;
+    cursor: pointer;
+    background-size: 1.7em;
+}
+
+button:hover {
+    background-color: #444343;
+    cursor: pointer;
+}
+
+.operator {
+ width: 100%;
+    color: #bcf571;
+    font-size: 34px;
+    font-weight: 100;
+    background-color: #444343;
+    border-radius: 50px;
+    
+}
+.operator2 {
+ width: 100%;
+    color: #bcf571;
+    font-size: 20px;
+    font-weight: 100;
+    background-color: #444343;
+    border-radius: 50px;
+    
+}
+.operator2:hover {
+    background-color: #6fa030;
+}
+.operator:hover {
+    background-color: #6fa030;
+}
+#clearBtn {
+    width: 100%;
+    background-color: #444343;
+    font-size: 26px;
+    color: rgb(255, 39, 39);
+    border-radius: 50px;
+}
+#clearHBtn {
+    width: 100%;
+    background-color: #444343;
+
+    /* color: red; */
+    border-radius: 50px;
+}
+#equal_sign {
+    width: 100%;
+    background-color: #6fa030;
+    border-radius: 50px;
+}
